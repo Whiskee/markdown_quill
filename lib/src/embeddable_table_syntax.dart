@@ -1,6 +1,5 @@
 import 'package:charcode/charcode.dart';
-export 'package:flutter_quill/src/models/documents/nodes/leaf.dart';
-import 'package:flutter_quill/src/models/documents/nodes/embeddable.dart';
+import 'package:flutter_quill/flutter_quill.dart' hide Node;
 import 'package:markdown/markdown.dart';
 
 /// Parses markdown table and saves the table markdown content into the element attributes.
